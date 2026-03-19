@@ -65,10 +65,6 @@ void receivedDataError(Wiegand::DataError error, uint8_t* rawData, uint8_t rawBi
 // Wifi credentials and network IP addresses
 // Currently static, may need a way to use preferences and an initialization procedure
 
-//const char* ssid = "DangerNet";
-//const char* password = "8324836205";
-//const char* mqttServer = "192.168.1.132";
-
 const char* ssid = "pikespeakmakerspace";
 const char* password = "weliketomake2016";
 // const char* mqttServer = "192.168.23.164";
