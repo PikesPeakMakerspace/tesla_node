@@ -65,15 +65,7 @@ void receivedDataError(Wiegand::DataError error, uint8_t* rawData, uint8_t rawBi
 // Wifi credentials and network IP addresses
 // Currently static, may need a way to use preferences and an initialization procedure
 
-const char* ssid = "pikespeakmakerspace";
-const char* password = "weliketomake2016";
-// const char* mqttServer = "192.168.23.164";
-const char* mqttServer = "10.8.0.1";
-
-const int mqttPort = 1883;
-//const char* mqttUser = "yourInstanceUsername";
-//const char* mqttPassword = "yourInstancePassword";
-
+#include "wifi_credentials.h"
 
 
 // subscribed MQTT topics
